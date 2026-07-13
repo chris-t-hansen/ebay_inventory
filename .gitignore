@@ -18,3 +18,7 @@ env/
 .vscode/
 .idea/
 .DS_Store
+
+# Other Files
+gemini-resume.txt
+
