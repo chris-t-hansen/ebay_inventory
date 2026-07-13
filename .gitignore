@@ -1,2 +1,18 @@
+# Local environment variables (sensitive)
 .env
-.env.*
+
+# Python compilation files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & system files
+.vscode/
+.idea/
+.DS_Store
