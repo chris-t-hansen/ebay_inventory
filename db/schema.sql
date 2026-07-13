@@ -1,8 +1,7 @@
 -- MariaDB Database Schema for ebay_inventory
 -- This file defines the tables used to track eBay listings, inventory, sales, bids, shipping, and feedback.
 
-CREATE DATABASE IF NOT EXISTS ebay_inventory;
-USE ebay_inventory;
+-- (Database creation is managed by the environment configuration)
 
 -- 1. Track physical inventory and scheduled listing details
 CREATE TABLE IF NOT EXISTS inventory_items (
