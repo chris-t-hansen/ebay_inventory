@@ -1,6 +1,7 @@
 # Local environment variables (sensitive)
 .env
 .env.*
+!.env.example
 
 # Python compilation files
 __pycache__/

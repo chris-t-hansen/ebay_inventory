@@ -1,0 +1,16 @@
+# ==============================================================================
+# Python Dependencies for ebay_inventory
+# Install via: pip install -r requirements.txt
+# ==============================================================================
+
+# Database and ORM
+SQLAlchemy>=2.0.0
+PyMySQL>=1.1.0        # Pure Python MySQL/MariaDB driver compatible with SQLAlchemy
+
+# HTTP and API Integrations
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=8.0.0
+pytest-mock>=3.12.0
