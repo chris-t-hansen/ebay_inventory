@@ -1,0 +1,10 @@
+To use your tokens efficiently, you should definitely start a new session when you are ready.
+
+  Why starting a new session is better:
+   1. Lowers Token Cost: Gemini CLI transfers your complete conversational history with each turn. Starting a clean session reduces
+      your context history to zero, making subsequent turns much faster and cheaper.
+   2. Persistence: All the code we wrote, the database schema, the virtual environment, and the instructions are fully saved on your
+      disk and pushed to GitHub.
+   3. Automated Context Loading: The newly updated GEMINI.md file acts as our "brain" for this project. When you open a brand new
+      session inside this directory, the Gemini CLI automatically reads GEMINI.md to instantly catch up on the architectural
+      standards, database setup, and project objectives.
